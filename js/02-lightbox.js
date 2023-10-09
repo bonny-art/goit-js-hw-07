@@ -19,4 +19,7 @@ function createMarkup(arr) {
     .join('');
 }
 
-let gallery = new SimpleLightbox('.gallery a');
+let gallery = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
