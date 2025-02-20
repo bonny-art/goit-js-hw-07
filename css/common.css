@@ -40,6 +40,8 @@ button {
   cursor: pointer;
   font-family: inherit;
   padding: 0;
+
+  border: transparent;
 }
 
 address {
@@ -53,7 +55,7 @@ input {
   padding: 8px 16px;
 
   color: #212121;
-  font-family: Montserrat;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.5px;
   letter-spacing: 0.04em;

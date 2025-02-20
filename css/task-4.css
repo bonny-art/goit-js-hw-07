@@ -1,0 +1,54 @@
+form {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+
+  border-radius: 8px;
+  background: #fff;
+
+  margin-top: 24px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  color: #2e2f42;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+}
+
+input[name="email"] {
+  margin-bottom: 8px;
+}
+
+input[name="password"] {
+  margin-bottom: 16px;
+}
+
+button {
+  display: flex;
+  width: 86px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 8px;
+  background-color: #4e75ff;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+button:hover,
+button:focus {
+  background-color: #6c8cff;
+}
